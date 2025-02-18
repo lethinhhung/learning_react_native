@@ -1,4 +1,9 @@
 {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    "github.copilot.enable": true, // Bật Copilot
+    "github.copilot.inlineSuggest.enable": true, // Hiện gợi ý trực tiếp
+    "github.copilot.suggestionDisplay": "inline",
+    "github.copilot.editor.enableAutoCompletions": true // Hiện gợi ý ngay trong dòng
 }
