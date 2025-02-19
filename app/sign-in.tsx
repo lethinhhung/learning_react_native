@@ -16,7 +16,7 @@ export default function SignIn() {
         if (!loading && isLogged) return <Redirect href="/" />;
 
         if (result) {
-            refetch();
+            refetch({});
         } else {
             Alert.alert('Error', 'Failed to login');
         }
